@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Profile - DuduLabs</title>
+    <meta name="description" content="View freelancer profiles on DuduLabs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Bricolage+Grotesque:wght@400;600;700;800&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">DuduLabs</span>
+                </a>
+                <div class="nav-links desktop-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                    <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                    <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span class="menu-icon" id="menuIcon">☰</span>
+                </button>
+            </div>
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 8rem;">
+        <div class="container" style="max-width: 1000px;">
+            <!-- Profile Header -->
+            <div class="card mb-8" style="padding: 2rem;">
+                <div class="profile-header">
+                    <div class="profile-avatar">JD</div>
+                    
+                    <div class="profile-info">
+                        <h1 class="profile-title">John Doe</h1>
+                        <p class="profile-subtitle">UI/UX Designer & Developer</p>
+                        <div class="profile-meta mb-4">
+                            <div class="profile-meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span>Lagos, Nigeria</span>
+                            </div>
+                            <div class="profile-meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                <span>4.9 (24 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="badges mb-4">
+                            <span class="badge">UI Design</span>
+                            <span class="badge">React</span>
+                            <span class="badge">Figma</span>
+                            <span class="badge">Tailwind CSS</span>
+                            <span class="badge">TypeScript</span>
+                        </div>
+                        <button class="btn btn-hero">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="card mb-8" style="padding: 2rem;">
+                <h2 class="card-title" style="font-size: 1.5rem; margin-bottom: 1rem;">About Me</h2>
+                <p class="card-text">
+                    I'm a passionate UI/UX designer and frontend developer with 5+ years of experience 
+                    creating beautiful, user-friendly digital experiences. I specialize in building 
+                    modern web applications with React and designing intuitive interfaces in Figma.
+                </p>
+            </div>
+
+            <div class="grid grid-2">
+                <!-- Experience -->
+                <div class="card" style="padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                        <div class="icon-box gradient-primary" style="width: 40px; height: 40px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                            </svg>
+                        </div>
+                        <h2 class="card-title" style="font-size: 1.5rem; margin: 0;">Experience</h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 style="font-weight: 600; margin-bottom: 0.25rem;">Senior UI Designer</h3>
+                            <p class="card-text" style="font-size: 0.875rem;">TechCorp Ltd • 2021 - Present</p>
+                        </div>
+                        <div>
+                            <h3 style="font-weight: 600; margin-bottom: 0.25rem;">Frontend Developer</h3>
+                            <p class="card-text" style="font-size: 0.875rem;">StartupHub • 2019 - 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievements -->
+                <div class="card" style="padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                        <div class="icon-box gradient-secondary" style="width: 40px; height: 40px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"/>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                            </svg>
+                        </div>
+                        <h2 class="card-title" style="font-size: 1.5rem; margin: 0;">Achievements</h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 style="font-weight: 600; margin-bottom: 0.25rem;">Top Rated Designer</h3>
+                            <p class="card-text" style="font-size: 0.875rem;">DuduLabs 2024</p>
+                        </div>
+                        <div>
+                            <h3 style="font-weight: 600; margin-bottom: 0.25rem;">100+ Projects Completed</h3>
+                            <p class="card-text" style="font-size: 0.875rem;">With 98% satisfaction rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Section -->
+            <div class="card" style="padding: 2rem; margin-top: 2rem;">
+                <h2 class="card-title" style="font-size: 1.5rem; margin-bottom: 1.5rem;">Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item"></div>
+                    <div class="portfolio-item"></div>
+                    <div class="portfolio-item"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-logo">DuduLabs</h3>
+                    <p class="footer-text">
+                        Africa's leading creative hub connecting talented freelancers with global opportunities.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="waitlist.html">Join Waitlist</a></li>
+                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Get In Touch</h4>
+                    <p class="footer-text">
+                        Ready to join Africa's creative revolution? Connect with us today.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> DuduLabs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

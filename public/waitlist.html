@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Waitlist - DuduLabs</title>
+    <meta name="description" content="Join DuduLabs waitlist as a talented creative or business looking for African talent.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Bricolage+Grotesque:wght@400;600;700;800&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">DuduLabs</span>
+                </a>
+                <div class="nav-links desktop-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                    <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                    <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span class="menu-icon" id="menuIcon">☰</span>
+                </button>
+            </div>
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 8rem;">
+        <div class="container" style="max-width: 1000px;">
+            <div class="text-center mb-8">
+                <h1 class="hero-title fade-in">
+                    Join the
+                    <span class="gradient-text">Waitlist</span>
+                </h1>
+                <p class="hero-description">
+                    Be part of Africa's creative revolution. Choose your path and join our community today.
+                </p>
+            </div>
+
+            <div class="grid grid-2">
+                <!-- Talent Card -->
+                <div class="card hover-lift" style="padding: 2rem;">
+                    <div class="text-center">
+                        <div class="feature-icon gradient-primary" style="margin: 0 auto 1.5rem;">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h2 style="font-size: 1.875rem; margin-bottom: 1rem;">For Talents</h2>
+                        <p class="card-text mb-6">
+                            Are you a designer, developer, or creative storyteller? Join our talent collective 
+                            to access real projects, build your portfolio, and connect with clients directly.
+                        </p>
+                        <ul style="text-align: left; margin-bottom: 2rem;" class="space-y-3">
+                            <li class="list-item">
+                                <span style="color: var(--primary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Access to paid projects</span>
+                            </li>
+                            <li class="list-item">
+                                <span style="color: var(--primary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Portfolio building opportunities</span>
+                            </li>
+                            <li class="list-item">
+                                <span style="color: var(--primary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Mentorship and skill development</span>
+                            </li>
+                            <li class="list-item">
+                                <span style="color: var(--primary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Community collaboration</span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-hero btn-lg" style="width: 100%;" onclick="joinAsTalent()">
+                            Join as Talent
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Business Card -->
+                <div class="card hover-lift" style="padding: 2rem;">
+                    <div class="text-center">
+                        <div class="feature-icon gradient-secondary" style="margin: 0 auto 1.5rem;">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                            </svg>
+                        </div>
+                        <h2 style="font-size: 1.875rem; margin-bottom: 1rem;">For Businesses</h2>
+                        <p class="card-text mb-6">
+                            Looking for world-class African talent? Connect with verified creatives who can 
+                            bring your vision to life with quality work and unique perspectives.
+                        </p>
+                        <ul style="text-align: left; margin-bottom: 2rem;" class="space-y-3">
+                            <li class="list-item">
+                                <span style="color: var(--secondary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Verified, skilled professionals</span>
+                            </li>
+                            <li class="list-item">
+                                <span style="color: var(--secondary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Direct communication with talent</span>
+                            </li>
+                            <li class="list-item">
+                                <span style="color: var(--secondary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Quality work, competitive rates</span>
+                            </li>
+                            <li class="list-item">
+                                <span style="color: var(--secondary); font-size: 1.25rem;">✓</span>
+                                <span class="card-text">Support African innovation</span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-secondary btn-lg" style="width: 100%;" onclick="joinAsBusiness()">
+                            Join as Business
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;">
+                <p class="card-text">
+                    By joining the waitlist, you'll be among the first to access DuduLabs when we launch. 
+                    We'll keep you updated on our progress and exciting opportunities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-logo">DuduLabs</h3>
+                    <p class="footer-text">
+                        Africa's leading creative hub connecting talented freelancers with global opportunities.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="waitlist.html">Join Waitlist</a></li>
+                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Get In Touch</h4>
+                    <p class="footer-text">
+                        Ready to join Africa's creative revolution? Connect with us today.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> DuduLabs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function joinAsTalent() {
+            // Replace with your actual WhatsApp group link for talents
+            window.open('https://chat.whatsapp.com/your-talent-group-link', '_blank');
+        }
+
+        function joinAsBusiness() {
+            // Replace with your actual WhatsApp group link for businesses
+            window.open('https://chat.whatsapp.com/your-business-group-link', '_blank');
+        }
+    </script>
+</body>
+</html>
