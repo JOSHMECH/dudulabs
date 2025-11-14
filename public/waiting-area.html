@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting Area - DuduLabs</title>
+    <meta name="description" content="Join our WhatsApp community and be first in line.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Bricolage+Grotesque:wght@400;600;700;800&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">DuduLabs</span>
+                </a>
+                <div class="nav-links desktop-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                    <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                    <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span class="menu-icon" id="menuIcon">☰</span>
+                </button>
+            </div>
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section text-center" style="padding-top: 8rem; min-height: 80vh; display: flex; align-items: center;">
+        <div class="container" style="max-width: 800px;">
+            <div class="mb-8 fade-in">
+                <div class="feature-icon gradient-hero" style="width: 96px; height: 96px; margin: 0 auto 1.5rem;">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                </div>
+                <h1 class="hero-title">
+                    Welcome to the
+                    <span class="gradient-text">Waiting Area</span>
+                </h1>
+                <p class="hero-description">
+                    You're almost there! Join our WhatsApp community to connect with fellow creatives, 
+                    get early updates, and be first in line when we launch.
+                </p>
+            </div>
+
+            <div class="card mb-8 fade-in" style="padding: 2rem;">
+                <div class="space-y-6">
+                    <div style="display: flex; align-items: flex-start; gap: 1rem; text-align: left;">
+                        <div class="icon-box gradient-primary" style="width: 48px; height: 48px; flex-shrink: 0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 style="font-weight: 600; margin-bottom: 0.5rem;">Connect with Creatives</h3>
+                            <p class="card-text">
+                                Network with fellow designers, developers, and storytellers in our community
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: flex-start; gap: 1rem; text-align: left;">
+                        <div class="icon-box gradient-secondary" style="width: 48px; height: 48px; flex-shrink: 0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                                <line x1="3" y1="6" x2="21" y2="6"/>
+                                <path d="M16 10a4 4 0 0 1-8 0"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 style="font-weight: 600; margin-bottom: 0.5rem;">Get Early Access</h3>
+                            <p class="card-text">
+                                Be among the first to access new features, projects, and opportunities
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: flex-start; gap: 1rem; text-align: left;">
+                        <div class="icon-box gradient-primary" style="width: 48px; height: 48px; flex-shrink: 0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 style="font-weight: 600; margin-bottom: 0.5rem;">Stay Updated</h3>
+                            <p class="card-text">
+                                Receive exclusive updates, tips, and announcements directly in the group
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fade-in">
+                <button class="btn btn-hero btn-lg mb-4" onclick="joinWhatsAppGroup()" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                    Join WhatsApp Group Now
+                </button>
+                <p style="font-size: 0.875rem; color: var(--muted-foreground);" id="redirectMessage">
+                    Redirecting automatically in <span id="countdown">3</span> seconds...
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-logo">DuduLabs</h3>
+                    <p class="footer-text">
+                        Africa's leading creative hub connecting talented freelancers with global opportunities.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="waitlist.html">Join Waitlist</a></li>
+                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Get In Touch</h4>
+                    <p class="footer-text">
+                        Ready to join Africa's creative revolution? Connect with us today.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> DuduLabs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Replace with your actual WhatsApp group link
+        const whatsappGroupLink = 'https://chat.whatsapp.com/your-freelancer-waiting-group-link';
+        
+        function joinWhatsAppGroup() {
+            window.open(whatsappGroupLink, '_blank');
+        }
+
+        // Auto-redirect countdown
+        let countdown = 3;
+        const countdownElement = document.getElementById('countdown');
+        
+        const interval = setInterval(() => {
+            countdown--;
+            if (countdownElement) {
+                countdownElement.textContent = countdown;
+            }
+            
+            if (countdown <= 0) {
+                clearInterval(interval);
+                joinWhatsAppGroup();
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

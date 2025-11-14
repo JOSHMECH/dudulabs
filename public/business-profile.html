@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Profile - DuduLabs</title>
+    <meta name="description" content="View business profiles on DuduLabs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Bricolage+Grotesque:wght@400;600;700;800&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">DuduLabs</span>
+                </a>
+                <div class="nav-links desktop-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                    <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                    <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span class="menu-icon" id="menuIcon">☰</span>
+                </button>
+            </div>
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="waitlist.html" class="nav-link">Join Waitlist</a>
+                <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                <a href="waitlist.html" class="btn btn-hero btn-sm">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 8rem;">
+        <div class="container" style="max-width: 1000px;">
+            <!-- Profile Header -->
+            <div class="card mb-8" style="padding: 2rem;">
+                <div class="profile-header">
+                    <div class="profile-avatar square gradient-secondary" style="color: var(--foreground);">TC</div>
+                    
+                    <div class="profile-info">
+                        <h1 class="profile-title">TechCorp Solutions</h1>
+                        <p class="profile-subtitle">Digital Agency & Consulting</p>
+                        <div class="profile-meta mb-4">
+                            <div class="profile-meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span>Nairobi, Kenya</span>
+                            </div>
+                            <div class="profile-meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                                <span>50-100 employees</span>
+                            </div>
+                        </div>
+                        <div class="badges mb-4">
+                            <span class="badge">Web Development</span>
+                            <span class="badge">Mobile Apps</span>
+                            <span class="badge">UI/UX Design</span>
+                            <span class="badge">Branding</span>
+                        </div>
+                        <div style="display: flex; gap: 0.75rem;">
+                            <button class="btn btn-hero">Contact Us</button>
+                            <button class="btn btn-outline">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="card mb-8" style="padding: 2rem;">
+                <h2 class="card-title" style="font-size: 1.5rem; margin-bottom: 1rem;">About Our Company</h2>
+                <p class="card-text mb-4">
+                    TechCorp Solutions is a leading digital agency specializing in creating innovative 
+                    digital experiences for businesses across Africa. We work with talented freelancers 
+                    through DuduLabs to deliver world-class projects.
+                </p>
+                <p class="card-text">
+                    Our mission is to empower businesses with cutting-edge technology solutions while 
+                    supporting the growth of African creative talent.
+                </p>
+            </div>
+
+            <div class="grid grid-2">
+                <!-- Services -->
+                <div class="card" style="padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                        <div class="icon-box gradient-primary" style="width: 40px; height: 40px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                            </svg>
+                        </div>
+                        <h2 class="card-title" style="font-size: 1.5rem; margin: 0;">Services</h2>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="list-item">
+                            <span style="color: var(--primary);">•</span>
+                            <span class="card-text">Custom Web Development</span>
+                        </li>
+                        <li class="list-item">
+                            <span style="color: var(--primary);">•</span>
+                            <span class="card-text">Mobile App Development</span>
+                        </li>
+                        <li class="list-item">
+                            <span style="color: var(--primary);">•</span>
+                            <span class="card-text">UI/UX Design Services</span>
+                        </li>
+                        <li class="list-item">
+                            <span style="color: var(--primary);">•</span>
+                            <span class="card-text">Brand Identity & Strategy</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Company Stats -->
+                <div class="card" style="padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                        <div class="icon-box gradient-secondary" style="width: 40px; height: 40px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M2 12h20"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                        <h2 class="card-title" style="font-size: 1.5rem; margin: 0;">Our Impact</h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="stat-number">200+</div>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div>
+                            <div class="stat-number" style="color: var(--secondary);">50+</div>
+                            <p class="stat-label">Talents Collaborated With</p>
+                        </div>
+                        <div>
+                            <div class="stat-number">15+</div>
+                            <p class="stat-label">Countries Served</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Projects -->
+            <div class="card" style="padding: 2rem; margin-top: 2rem;">
+                <h2 class="card-title" style="font-size: 1.5rem; margin-bottom: 1.5rem;">Current Opportunities</h2>
+                <div class="space-y-4">
+                    <div class="project-item">
+                        <h3>UI Designer for E-commerce Platform</h3>
+                        <p>
+                            Looking for an experienced UI designer to redesign our e-commerce platform
+                        </p>
+                        <div class="badges">
+                            <span class="badge badge-secondary">UI Design</span>
+                            <span class="badge badge-secondary">Figma</span>
+                            <span class="badge badge-secondary">E-commerce</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <h3>React Developer for Mobile App</h3>
+                        <p>
+                            Seeking a React Native developer for a new fintech mobile application
+                        </p>
+                        <div class="badges">
+                            <span class="badge badge-secondary">React Native</span>
+                            <span class="badge badge-secondary">TypeScript</span>
+                            <span class="badge badge-secondary">Mobile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-logo">DuduLabs</h3>
+                    <p class="footer-text">
+                        Africa's leading creative hub connecting talented freelancers with global opportunities.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="waitlist.html">Join Waitlist</a></li>
+                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Get In Touch</h4>
+                    <p class="footer-text">
+                        Ready to join Africa's creative revolution? Connect with us today.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> DuduLabs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
